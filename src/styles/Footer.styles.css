@@ -1,0 +1,40 @@
+footer{
+  padding:2% 10%;
+  display:flex;
+  background-color: #33323D;
+  align-items: center;
+}
+
+.logo-footer{
+  margin-right: 7%;
+}
+
+.menu-footer{
+  flex-grow: 1;
+}
+
+.menu-footer ul{
+  display:flex;
+}
+
+.menu-footer li{
+  list-style-type: none;
+  margin-right:5%;
+}
+.menu-footer a{
+  font-family: 'Public Sans';
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.social-media{
+  width: 130px;
+  display:flex;
+  align-items: center;
+  justify-content:space-between
+}
+
+.social-media a{
+  margin-right:5%;
+}

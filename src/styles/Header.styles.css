@@ -1,0 +1,35 @@
+header{
+  padding:4% 10%;
+  display:flex;
+  align-items: center;
+}
+
+.logo{
+  flex-grow: 1;
+}
+
+.menu{
+  width:300px
+}
+
+header ul{
+  display:flex;
+}
+
+header li{
+  list-style-type: none;
+  margin-right:15%;
+}
+
+header a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Public Sans';
+}
+
+header a:hover{
+  transition:1s;
+  border-bottom: 1px solid #5FB4A2;
+  color: #5FB4A2;
+}

@@ -1,27 +1,14 @@
 import './App.css'
-import logo from './assets/logo-dark.svg'
+
 import setaDown from './assets/icons/down-arrows.svg'
 import homepageProfile from './assets/home/image-homepage-profile.jpg'
-import logoLight from './assets/logo-light.svg'
-import github from './assets/icons/github-light.svg'
-import twitter from './assets/icons/twitter-light.svg'
-import linkedin from './assets/icons/linkedin-light.svg'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App () {
   return (
     <div>
-      <header>
-        <div className="logo"><img src={logo} alt="logo-dark" /></div>
-        <div className="menu">
-          <nav>
-            <ul>
-              <li><a className="home" href="/pages/home/index.html">home</a></li>
-              <li><a href="/pages/portfolio/index.html">portfolio</a></li>
-              <li><a href="/pages/contato/index.html">contato</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <Header />
       <section className="hero">
         <div className="boxes">
           <div className="box">
@@ -46,23 +33,7 @@ function App () {
         <h1>Interessado em fazer projetos comigo?</h1>
         <a href="/pages/contato/index.html" className="ctn">contato</a>
       </section>
-      <footer>
-        <div className="logo-footer"><img src={logoLight} alt="logo-light" /></div>
-        <div className="menu-footer">
-          <nav>
-            <ul>
-              <li><a href="/pages/home/index.html">home</a></li>
-              <li><a href="/pages/portfolio/index.html">portfolio</a></li>
-              <li><a href="/pages/contato/index.html">contato</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div className="social-media">
-          <a href="/"><img src={github} alt="github" /></a>
-          <a href="/"><img src={twitter} alt="twitter" /></a>
-          <a href="/"><img src={linkedin} alt="linkedin" /></a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
