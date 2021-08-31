@@ -7,7 +7,7 @@ import github from './assets/icons/github-light.svg'
 import twitter from './assets/icons/twitter-light.svg'
 import linkedin from './assets/icons/linkedin-light.svg'
 
-function App() {
+function App () {
   return (
     <div>
       <header>
