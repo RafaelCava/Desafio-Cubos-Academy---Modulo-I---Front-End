@@ -1,5 +1,5 @@
-import './App.css';
-import logo from './assets/logo-dark.svg';
+import './App.css'
+import logo from './assets/logo-dark.svg'
 import setaDown from './assets/icons/down-arrows.svg'
 import homepageProfile from './assets/home/image-homepage-profile.jpg'
 import logoLight from './assets/logo-light.svg'
@@ -64,7 +64,7 @@ function App() {
         </div>
       </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
