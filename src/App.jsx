@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/App.css'
 
 import setaDown from './assets/icons/down-arrows.svg'
 import homepageProfile from './assets/home/image-homepage-profile.jpg'
