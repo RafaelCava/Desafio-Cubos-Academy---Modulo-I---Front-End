@@ -15,5 +15,14 @@ npm run start
 #or
 yarn start
 ```
-
+  - Para criar a build
+```bash
+npm run build
+#or
+yarn build
+```
+```bash
+npx serve -s build
+```
+  
 # Deixa uma estrela ⭐
