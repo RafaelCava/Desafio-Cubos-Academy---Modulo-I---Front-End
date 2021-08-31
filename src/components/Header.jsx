@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import '../styles/Header.styles.css'
 import logo from '../assets/logo-dark.svg'
 const Header = () => (
